@@ -1,0 +1,24 @@
+body {
+	background-color: $bg-color;
+}
+
+.body {
+	padding: 0 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 88vh;
+}
+
+// Remove input type number spinner (Chrome, Safari, Edge, Opera)
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+// Remove input type number spinner (Firefox)
+input[type='number'] {
+	-moz-appearance: textfield;
+}
