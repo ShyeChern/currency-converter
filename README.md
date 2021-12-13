@@ -6,7 +6,7 @@ A website that shows mastercard history conversion rate from MYR to USD. Develop
 
 ## Demo
 
-<img src="https://github.com/ShyeChern/currency-converter/raw/master/gif/demo.gif" alt="Demo" width="400" height="400">
+<img src="https://github.com/ShyeChern/currency-converter/raw/master/gif/demo.gif" alt="Demo" width="600" height="400">
 
 ## Installation
 
