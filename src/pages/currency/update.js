@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
-import { format } from 'date-fns';
 
 export default function Home() {
 	const [errorText, setErrorText] = useState('');
@@ -72,7 +71,6 @@ export default function Home() {
 									className="form-control"
 									onFocus={() => setErrorText('')}
 									onChange={(e) => setDate(e.target.value)}
-									max={format(new Date(), 'yyyy-MM-dd')}
 									value={date}
 								/>
 							</div>
@@ -106,7 +104,8 @@ export default function Home() {
 								<input
 									id="manual-update-password"
 									type="password"
-									placeholder="Enter manual update password"
+									title="s@9"
+									placeholder="Hint: s@9"
 									className="form-control"
 									onFocus={() => setErrorText('')}
 									onChange={(e) => setManualUpdatePassword(e.target.value)}
