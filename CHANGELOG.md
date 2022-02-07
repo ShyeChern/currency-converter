@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v1.0.1 (2022-02-xx)
+## v1.0.1 (2022-02-07)
 ### Change
 * Remove manual update max date
 * Add manual update password hint
